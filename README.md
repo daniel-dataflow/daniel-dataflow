@@ -1,4 +1,4 @@
-  # 👋 한대성 — Data Engineer & Automation Developer
+  # 한대성 — Data Engineer & Automation Developer
 
 💡 **데이터로 효율을 극대화하는 개발자**  
 12년간 다양한 산업군의 **웹 서비스 및 내부 시스템 개발** 경험을 바탕으로,  
@@ -87,7 +87,7 @@
 
 
 
-<!--
+<!-- -->
 ![header](https://capsule-render.vercel.app/api?type=wave&color=auto&height=300&section=header&text=한대성%20데이터엔지니어&fontSize=90)
 
 [![*'s github stats](https://github-readme-stats.vercel.app/api?username=daniel-dataflow)](https://github.com/daniel-dataflow)
