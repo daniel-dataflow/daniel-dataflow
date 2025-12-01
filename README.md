@@ -49,8 +49,8 @@
 ---
 
 ### 📈 GitHub Stats
-![Daniel's GitHub stats](https://github-readme-stats.vercel.app/api?username=daniel-dataflow&show_icons=true&theme=react)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=daniel-dataflow&layout=compact&theme=react)
+![Daniel's GitHub stats](https://daniel-stats.vercel.app/api?username=daniel-dataflow&show_icons=true&theme=react)
+![Top Langs](https://daniel-stats.vercel.app/api/top-langs/?username=daniel-dataflow&layout=compact&theme=react)
 
 ---
 
