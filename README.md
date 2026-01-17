@@ -18,9 +18,9 @@
 
 ### 🚀 Current Focus
 - YOLO + CLIP을 활용한 **AI 패션 이미지 검색 기반 듀프 쇼핑 최저가 비교 프로그램** 개발
--- ETL 파이프라인 및 데이터 파싱 자동화 시스템 구축  
+- ETL 파이프라인 및 데이터 파싱 자동화 시스템 구축  
 - 개인 이력 관리용 **포트폴리오/경력 관리 웹사이트** 개발
--- Open-source 기반 DevOps 실습 (Render Health Check 등)  
+- Open-source 기반 DevOps 실습 (Render Health Check 등)  
 
 
 ---
