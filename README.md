@@ -17,10 +17,11 @@
 ---
 
 ### 🚀 Current Focus
-- ETL 파이프라인 및 데이터 파싱 자동화 시스템 구축  
-- Open-source 기반 DevOps 실습 (Cloudflare DNS Failover, Render Health Check 등)  
-- 개인 이력 관리용 **포트폴리오/경력 관리 웹사이트** 개발  
 - YOLO + CLIP을 활용한 **AI 패션 이미지 검색 기반 듀프 쇼핑 최저가 비교 프로그램** 개발
+-- ETL 파이프라인 및 데이터 파싱 자동화 시스템 구축  
+- 개인 이력 관리용 **포트폴리오/경력 관리 웹사이트** 개발
+-- Open-source 기반 DevOps 실습 (Render Health Check 등)  
+
 
 ---
 
@@ -41,7 +42,7 @@
 
 | 프로젝트 | 설명 | 기술스택 |
 |-----------|------|----------|
-| 👕 **Team project snap-match** | AI 패션 이미지 검색 기반 듀프 쇼핑 최저가 비교 서비스 | YOLO + CLIP |
+| 👕 **Team project snap-match** | AI 패션 이미지 검색 기반 듀프 쇼핑 최저가 비교 서비스 | Airflow, Python |
 | 💄 **OliveYoung Backoffice Remodel** | 백오피스 리모델링 및 실시간 데이터 반영 기능 개발 | Spring Boot, Vue.js |
 | 📦 **물류 API 연동 시스템** | 해외 물류 API 통합, 주문 및 운송 상태 실시간 관리 | Spring Boot, Vue.js |
 | 💻 **Portfolio Management Site** | Supabase + Vercel 기반 자기 이력 관리 웹사이트 | Next.js, Supabase |
