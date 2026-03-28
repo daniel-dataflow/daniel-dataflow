@@ -8,8 +8,8 @@
 
 ### 🧠 About Me
 - 💼 Full-stack 경력 기반의 **데이터 엔지니어**  
-- ⚙️ Backend:  Fastapi, Django, Java (Spring Boot)  
-- 🐍 Data & Automation: Airflow, Spark, Python, Pandas, Selenium  
+- ⚙️ Backend:  FastAPI, Django, Java (Spring Boot)  
+- 🐍 Data & Automation: Python, Airflow, Spark, Kafka, Pandas, Selenium  
 - ☁️ Cloud & DevOps: AWS / GCP / Render / Vercel  
 - 🧩 Database: PostgreSQL, MySQL, MongoDB, Redis  
 - 🔍 관심분야: 데이터 수집, 분석, ETL 자동화, 시스템 모니터링, 효율화 도구 개발
@@ -30,7 +30,7 @@
 | 분야 | 기술 |
 |------|------|
 | 💻 Backend | FastAPI, Java, Spring Boot, Node.js, Express |
-| 🐍 Data / Script | Python, Pandas, SQL, Selenium, Airflow |
+| 🐍 Data / Script | Python, Airflow, Spark, Kafka, Pandas, SQL, Selenium |
 | ☁️ Infra | AWS, GCP, Render, Vercel |
 | 🗃️ Database | PostgreSQL, MongoDB, MySQL, Redis |
 | 🧑‍💻 Frontend | Vue.js, HTML/CSS, JavaScript |
