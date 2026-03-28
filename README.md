@@ -42,7 +42,7 @@
 
 | 프로젝트 | 설명 | 기술스택 |
 |-----------|------|----------|
-| 👕 **Team project snap-match** | AI 패션 이미지 검색 기반 듀프 쇼핑 최저가 비교 서비스 | Python, Airflow, kafka |
+| 👕 **Team project snap-match** | AI 패션 이미지 검색 기반 듀프 쇼핑 최저가 비교 서비스 | Airflow, Python |
 | 💄 **OliveYoung Backoffice Remodel** | 백오피스 리모델링 및 실시간 데이터 반영 기능 개발 | Spring Boot, Vue.js |
 | 📦 **물류 API 연동 시스템** | 해외 물류 API 통합, 주문 및 운송 상태 실시간 관리 | Spring Boot, Vue.js |
 | 💻 **Portfolio Management Site** | Supabase + Vercel 기반 자기 이력 관리 웹사이트 | Next.js, Supabase |
