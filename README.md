@@ -29,7 +29,7 @@
 
 | 분야 | 기술 |
 |------|------|
-| 💻 Backend | Java, Spring Boot, Node.js, Express |
+| 💻 Backend | FastAPI, Java, Spring Boot, Node.js, Express |
 | 🐍 Data / Script | Python, Pandas, SQL, Selenium, Airflow |
 | ☁️ Infra | AWS, GCP, Render, Vercel |
 | 🗃️ Database | PostgreSQL, MongoDB, MySQL, Redis |
