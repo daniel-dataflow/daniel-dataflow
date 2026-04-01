@@ -1,69 +1,90 @@
-  # 한대성 — Data Engineer & Automation Developer
+# 한대성 (Daniel Han) — Data Engineer
 
-💡 **데이터로 효율을 극대화하는 개발자**  
-12년간 다양한 산업군의 **웹 서비스 및 내부 시스템 개발** 경험을 바탕으로,  
-최근에는 **데이터 파이프라인 구축**, **업무 자동화**, **클라우드 기반 인프라 설계**에 집중하고 있습니다.
+> **"데이터 파이프라인으로 비즈니스 문제를 0 to 1로 해결합니다."**
 
----
-
-### 🧠 About Me
-- 💼 Full-stack 경력 기반의 **데이터 엔지니어**  
-- ⚙️ Backend:  FastAPI, Django, Java (Spring Boot)  
-- 🐍 Data & Automation: Python, Airflow, Spark, Kafka, Pandas, Selenium  
-- ☁️ Cloud & DevOps: AWS / GCP / Render / Vercel  
-- 🧩 Database: PostgreSQL, MySQL, MongoDB, Redis  
-- 🔍 관심분야: 데이터 수집, 분석, ETL 자동화, 시스템 모니터링, 효율화 도구 개발
+12년 차 Full-Stack 경력 기반 **데이터 엔지니어**
+금융·물류·커머스·보안 등 다양한 도메인에서 시스템을 직접 설계·운영한 경험을 바탕으로,  
+**Elasticsearch 기반 검색 파이프라인**, **AI 서비스 인프라**, **배치·실시간 ETL 자동화**에 집중하고 있습니다.
 
 ---
 
-### 🚀 Current Focus
-- YOLO + CLIP을 활용한 **AI 패션 이미지 검색 기반 듀프 쇼핑 최저가 비교 프로그램** 개발
-- ETL 파이프라인 및 데이터 파싱 자동화 시스템 구축  
-- 개인 이력 관리용 **포트폴리오/경력 관리 웹사이트** 개발
-- Open-source 기반 DevOps 실습 (Render Health Check 등)  
+## 🧠 About Me
 
+- 🏆 데이터 엔지니어 부트캠프 **최우수상** 수상
+- ⚙️ Airflow · Spark · Kafka · HDFS **엔드-투-엔드 데이터 파이프라인** 완전 자동화
+- 🔍 Elasticsearch 기반 **검색 인덱싱 파이프라인** 설계·구축 경험
+- 🐳 Docker 14컨테이너 · AWS GPU 서버(NVIDIA T4) · GitHub Actions CI/CD 운영 경험
+- 🤖 YOLOv11 · Fashion-CLIP · LLaVA · SBERT **AI 모델 서빙 인프라** 구축
+- 💼 12년 Full-Stack 경력 (금융·물류·커머스·보안 도메인) — 비즈니스 로직과 데이터 흐름을 함께 이해하는 엔지니어
 
 ---
 
-### 🛠️ Tech Stack
+## 🛠️ Tech Stack
 
-| 분야 | 기술 |
+| 영역 | 기술 |
 |------|------|
-| 💻 Backend | FastAPI, Java, Spring Boot, Node.js, Express |
-| 🐍 Data / Script | Python, Airflow, Spark, Kafka, Pandas, SQL, Selenium |
-| ☁️ Infra | AWS, GCP, Render, Vercel |
-| 🗃️ Database | PostgreSQL, MongoDB, MySQL, Redis |
-| 🧑‍💻 Frontend | Vue.js, HTML/CSS, JavaScript |
-| 🧰 Tools | Git, Docker, Jenkins, Supabase, Notion |
+| **Data Pipeline** | Apache Airflow, Apache Spark, Hadoop HDFS, Apache Kafka |
+| **Database** | PostgreSQL, MongoDB, MySQL, Redis, Oracle |
+| **Search & Vector DB** | Elasticsearch (KNN 벡터 검색, 이중 인덱스 설계) |
+| **Cloud & DevOps** | AWS (EC2·S3·RDS), GCP, Docker, GitHub Actions, Jenkins |
+| **Backend** | Python, FastAPI, Java, Spring Boot,  Node.js |
+| **AI/ML Infra** | YOLOv11, Fashion-CLIP, SBERT, LLaVA, FastAPI (GPU 서버) |
+| **Frontend** | Vue.js, JavaScript, HTML/CSS |
 
 ---
 
-### 📂 Featured Projects
+## 🚀 Featured Projects
 
-| 프로젝트 | 설명 | 기술스택 |
-|-----------|------|----------|
-| 👕 **Team project snap-match** | AI 패션 이미지 검색 기반 듀프 쇼핑 최저가 비교 서비스 | Python, Airflow, kafka |
-| 💄 **OliveYoung Backoffice Remodel** | 백오피스 리모델링 및 실시간 데이터 반영 기능 개발 | Spring Boot, Vue.js |
-| 📦 **물류 API 연동 시스템** | 해외 물류 API 통합, 주문 및 운송 상태 실시간 관리 | Spring Boot, Vue.js |
-| 💻 **Portfolio Management Site** | Supabase + Vercel 기반 자기 이력 관리 웹사이트 | Next.js, Supabase |
+### 👕 LOOKALIKE — AI 패션 이미지 검색 플랫폼 🏆 최우수상
+> 듀프(Dupe) 소비 트렌드를 겨냥한 AI 패션 이미지 검색 + 실시간 최저가 비교 서비스
+
+- **역할**: Lead DE · Pipeline Architect · 팀장 (4인 팀)
+- **파이프라인**: Airflow DAG → 5개 브랜드 크롤링 → Hadoop HDFS → Spark ETL → AI 임베딩 → Elasticsearch KNN 인덱싱
+- **AI 검색**: YOLOv11 세그멘테이션 + Fashion-CLIP(이미지) / LLaVA VLM + SBERT(텍스트) 이중 벡터 Late Fusion
+- **모니터링**: Kafka 기반 실시간 메트릭 스트리밍, Auto-Recovery, Slack 알람
+- **인프라**: AWS EC2 g4dn.xlarge (NVIDIA T4 GPU), GCP, Docker Compose 14개 서비스, GitHub Actions CI/CD
+- **Stack**: `Python` `Airflow` `Spark` `Kafka` `Elasticsearch` `PostgreSQL` `MongoDB` `Docker` `AWS`
+- 🌐 [서비스 바로가기](https://lookalikes.duckdns.org)
 
 ---
 
-### 📈 GitHub Stats
+### 💄 OliveYoung Backoffice Remodel
+> 올리브영 매장 백오피스 시스템 기능 개선 및 리모델링 (비욘드에프)
+
+- Nexacro → Vue + SpringBoot 환경 전환으로 라이선스 비용 절감
+- 테스터·라벨 등록 관리 페이지 개발, 사용자 만족도 20% 향상
+- **Stack**: `Vue` `AG-grid` `Java` `SpringBoot` `Oracle` `DataDog`
+
+---
+
+### 📦 글로벌 물류 API 연동 시스템
+> 일본·동남아·미국 배송 통합 물류 솔루션 (잼플랫폼)
+
+- UPS/DHL API 연동 리드, Order·Label·Tracking 전체 서비스 구축
+- OPEN API 구축으로 고객사 실무자 능률 80% 향상, 물류 계약 건 25% 증가
+- **Stack**: `Java` `Spring Boot` `MariaDB` `Vue.js` `AWS` `MSA`
+
+---
+
+### 💻 Portfolio Management Site
+> Supabase + Vercel 기반 개인 이력 관리 웹사이트
+
+- **Stack**: `Next.js` `Supabase` `Vercel` `Render`
+- 🌐 [바로가기](https://daniel-profile-site.vercel.app)
+
+---
+
+## 📈 GitHub Stats
+
 ![Daniel's GitHub stats](https://daniel-stats.vercel.app/api?username=daniel-dataflow&show_icons=true&theme=react)
 ![Top Langs](https://daniel-stats.vercel.app/api/top-langs/?username=daniel-dataflow&layout=compact&theme=react)
 
 ---
 
-### 🌱 Currently Learning
-- Airflow + Spark를 활용한 데이터 파이프라인 구축  
-- DevOps 자동화 (헬스체크, Failover DNS, 로그 모니터링)  
-- AI를 활용한 개발 생산성 향상 및 데이터 분석 실습  
+## 📫 Contact
 
----
-
-### 📫 Contact
-- 💼 Portfolio: [https://daniel-profile-site.vercel.app](https://daniel-profile-site.vercel.app)  
-- ✉️ Email: daniel.han.developer@gmail.com  
-- 💬 LinkedIn: [linkedin.com/in/danielhan-](https://www.linkedin.com/in/danielhan-/)  
-
+| | |
+|---|---|
+| 🌐 Portfolio | [daniel-profile-site.vercel.app](https://daniel-profile-site.vercel.app) |
+| ✉️ Email | daniel.han.developer@gmail.com |
+| 💼 LinkedIn | [linkedin.com/in/danielhan-](https://www.linkedin.com/in/danielhan-/) |
