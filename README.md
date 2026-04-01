@@ -2,9 +2,9 @@
 
 > **"데이터 파이프라인으로 비즈니스 문제를 0 to 1로 해결합니다."**
 
-12년 차 Full-Stack 경력 기반 **데이터 엔지니어**
+12년 차 Full-Stack 경력 기반 **데이터 엔지니어**  
 금융·물류·커머스·보안 등 다양한 도메인에서 시스템을 직접 설계·운영한 경험을 바탕으로,  
-**Elasticsearch 기반 검색 파이프라인**, **AI 서비스 인프라**, **배치·실시간 ETL 자동화**에 집중하고 있습니다.
+**데이터 파이프라인 구축**, **AI 서비스 인프라**, **배치·실시간 ETL 자동화**에 집중하고 있습니다.
 
 ---
 
@@ -53,7 +53,7 @@
 
 - Nexacro → Vue + SpringBoot 환경 전환으로 라이선스 비용 절감
 - 테스터·라벨 등록 관리 페이지 개발, 사용자 만족도 20% 향상
-- **Stack**: `Vue` `AG-grid` `Java` `SpringBoot` `Oracle` `DataDog`
+- **Stack**: `Java` `SpringBoot` `Vue.js` `AG-grid` `Oracle` `DataDog`
 
 ---
 
@@ -62,7 +62,7 @@
 
 - UPS/DHL API 연동 리드, Order·Label·Tracking 전체 서비스 구축
 - OPEN API 구축으로 고객사 실무자 능률 80% 향상, 물류 계약 건 25% 증가
-- **Stack**: `Java` `Spring Boot` `MariaDB` `Vue.js` `AWS` `MSA`
+- **Stack**: `Java` `Spring Boot` `Vue.js` `Vuetify` `MariaDB` `AWS` `MSA`
 
 ---
 
