@@ -27,7 +27,7 @@
 | **Database** | PostgreSQL, MongoDB, MySQL, Redis, Oracle |
 | **Search & Vector DB** | Elasticsearch (KNN 벡터 검색, 이중 인덱스 설계) |
 | **Cloud & DevOps** | AWS (EC2·S3·RDS), GCP, Docker, GitHub Actions, Jenkins |
-| **Backend** | Python, FastAPI, Java, Spring Boot,  Node.js |
+| **Backend** | Python, FastAPI, Java, Spring Boot, Node.js |
 | **AI/ML** | YOLOv11, Fashion-CLIP, SBERT, LLaVA |
 | **Frontend** | Vue.js, JavaScript, HTML/CSS |
 
@@ -66,7 +66,7 @@
 
 ---
 
-### 💻 Portfolio Management Site
+### 💻 Portfolio Management Site(Personal Project)
 > Supabase + Vercel 기반 개인 이력 관리 웹사이트
 
 - **Stack**: `Next.js` `Supabase` `Vercel` `Render`
