@@ -13,7 +13,7 @@
 - 🏆 데이터 엔지니어 부트캠프 **최우수상** 수상
 - ⚙️ Airflow · Spark · Kafka · HDFS **엔드-투-엔드 데이터 파이프라인** 완전 자동화
 - 🔍 Elasticsearch 기반 **검색 인덱싱 파이프라인** 설계·구축 경험
-- 🐳 Docker 14컨테이너 · AWS GPU 서버(NVIDIA T4) · GitHub Actions CI/CD 운영 경험
+- 🐳 Docker 14컨테이너 · AWS GPU 서버(NVIDIA T4) · GitHub Actions CI/CD  · GCP 운영 경험
 - 🤖 YOLOv11 · Fashion-CLIP · LLaVA · SBERT **AI 모델 서빙 인프라** 구축
 - 💼 12년 Full-Stack 경력 (금융·물류·커머스·보안 도메인) — 비즈니스 로직과 데이터 흐름을 함께 이해하는 엔지니어
 
