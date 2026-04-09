@@ -69,6 +69,7 @@
 ### 💻 Portfolio Management Site(Personal Project)
 > Supabase + Vercel 기반 개인 이력 관리 웹사이트
 
+- 이력서, 경력기술서, 프로젝트 상세페이지
 - **Stack**: `Next.js` `Supabase` `Vercel` `Render`
 - 🌐 [바로가기](https://daniel-profile-site.vercel.app)
 
