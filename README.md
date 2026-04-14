@@ -24,7 +24,7 @@
 | 영역 | 기술 |
 |------|------|
 | **Data Pipeline** | Apache Airflow, Apache Spark, Hadoop HDFS, Apache Kafka |
-| **Database** | PostgreSQL, MongoDB, MySQL, Redis, Oracle |
+| **Database** | PostgreSQL, MongoDB, MySQL, Redis, Oracle, MariaDB |
 | **Search & Vector DB** | Elasticsearch (KNN 벡터 검색, 이중 인덱스 설계) |
 | **Cloud & DevOps** | AWS, GCP, Docker, GitHub Actions, Jenkins |
 | **Backend** | Python, FastAPI, Java, Spring Boot, Node.js |
