@@ -44,7 +44,7 @@
 - **모니터링**: Kafka 기반 실시간 메트릭 스트리밍, Auto-Recovery, Slack 알람
 - **인프라**: AWS EC2 g4dn.xlarge (NVIDIA T4 GPU), GCP, Docker Compose 14개 서비스, GitHub Actions CI/CD
 - **Stack**: `Python` `Airflow` `Spark` `Kafka` `Elasticsearch` `PostgreSQL` `MongoDB` `Docker` `AWS`
-- 🌐 [서비스 바로가기](https://lookalikes.duckdns.org)
+- 🌐 [서비스 바로가기](https://lookalike-api.onrender.com)
 
 ---
 
