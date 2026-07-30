@@ -77,7 +77,6 @@
 
 ## 📈 GitHub Stats
 
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=daniel-dataflow&theme=dark)
 ![Daniel's GitHub stats](https://daniel-stats.vercel.app/api?username=daniel-dataflow&show_icons=true&theme=react&cache_seconds=300)
 ![Top Langs](https://daniel-stats.vercel.app/api/top-langs/?username=daniel-dataflow&layout=compact&theme=react&hide=jupyter%20notebook,html)
 
