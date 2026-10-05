@@ -35,6 +35,21 @@
 
 ## 🚀 Featured Projects
 
+### 🧴 PickSafe — 화장품 성분 알레르기 스캔 PWA
+
+| 외국인 관광객을 위한 실시간 화장품 전성분 OCR 스캔 및 알레르기·기피 성분 맞춤 대조 PWA
+
+- **역할**: 1인 개발 (기획·설계·풀스택 개발·인프라 운영 100%)
+- **파이프라인**: 카메라/캡처 이미지 → Gemini Vision OCR → 4단계 매칭 엔진(Exact·Fuzzy·Token Split) → 개인 기피 성분 대조
+- **안정성 설계**: Neon DB 3중화 핫스왑 페일오버(2-Phase 무손실 동기화), 서킷 브레이커 기반 OOM 방지
+- **인프라 & 성능**: Gemini API 멀티 계정 로드밸런싱, Cloudflare 엣지 캐싱, 다국어 2-Tier 인메모리 캐싱
+- **글로벌 & UX**: 글로벌 7개 국어 지원(정적 코드 감사 결측 0건 검증), 비로그인 게스트 모드, 모바일 웹 PWA
+- **Stack**: `Python` `FastAPI` `PostgreSQL(Neon)` `Gemini API` `Jinja2` `Vanilla JS` `PWA` `Cloudflare` `Render`
+- 🌐 [서비스 바로가기](https://picksafe.kr)
+
+
+---
+
 ### 👕 LOOKALIKE — AI 패션 이미지 검색 플랫폼 🏆 최우수상
 > 듀프(Dupe) 소비 트렌드를 겨냥한 AI 패션 이미지 검색 + 실시간 최저가 비교 서비스
 
