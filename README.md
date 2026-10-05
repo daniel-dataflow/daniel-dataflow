@@ -43,7 +43,7 @@
 - **파이프라인**: 카메라/캡처 이미지 → Gemini Vision OCR → 4단계 매칭 엔진(Exact·Fuzzy·Token Split) → 개인 기피 성분 대조
 - **안정성 설계**: Neon DB 3중화 핫스왑 페일오버(2-Phase 무손실 동기화), 서킷 브레이커 기반 OOM 방지
 - **인프라 & 성능**: Gemini API 멀티 계정 로드밸런싱, Cloudflare 엣지 캐싱, 다국어 2-Tier 인메모리 캐싱
-- **글로벌 & UX**: 글로벌 7개 국어 지원(정적 코드 감사 결측 0건 검증), 비로그인 게스트 모드, 모바일 웹 PWA
+- **글로벌 & UX**: 글로벌 다국어(i18n) 지원(정적 코드 감사 결측 0건 검증), 비로그인 게스트 모드, 모바일 웹 PWA
 - **Stack**: `Python` `FastAPI` `PostgreSQL(Neon)` `Gemini API` `Jinja2` `Vanilla JS` `PWA` `Cloudflare` `Render`
 - 🌐 [서비스 바로가기](https://picksafe.kr)
 
